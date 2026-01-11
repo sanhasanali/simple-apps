@@ -1,7 +1,7 @@
 services:
   apps:
     container_name: ct-simpleapps-hasan
-    image: simpleapps-hasan
+    image: deni02/simpleapps-hasan
     build: ./apps
     ports:
     - "10013:3000"
