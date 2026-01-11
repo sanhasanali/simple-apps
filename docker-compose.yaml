@@ -1,7 +1,7 @@
 services:
   apps:
     container_name: ct-simpleapps-hasan
-    build: ./app
+    build: ./apps
     ports:
     - "10013:3000"
     restart: always
